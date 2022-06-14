@@ -1,5 +1,6 @@
 import './scss/style.css';
 import Navigation from './Navigation';
+import { Link } from 'react-router-dom';
 
 function portfolio() {
   return (
@@ -23,11 +24,11 @@ function portfolio() {
                 you see and have a project you need coded, don’t hestiate to
                 contact me.
               </p>
-              <form action='./mywork'>
+              <Link to={'/mywork'}>
                 <button type='submit' className='btn btn-secondary btn-sm'>
                   My Work
                 </button>
-              </form>
+              </Link>
             </div>
           </div>
           <div className='card-empty'>card-empty</div>
