@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import './mywork';
+@import './contact';
+@import './about';
+
+$text-sizes: (100vw * 0.03);
+
+.bannerS {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../img/technology-3389904_960_720.jpg);
+  background-size: cover;
+  border: solid 1px;
+  padding-top: 150px;
+
+  h1 {
+    color: #eece1a;
+    text-align: center;
+  }
+}
+.card-flex {
+  display: flex;
+  justify-content: space-between;
+
+  .card-empty {
+    visibility: hidden;
+  }
+
+  .card-bg {
+    background-color: #444444;
+    color: white;
+  }
+}

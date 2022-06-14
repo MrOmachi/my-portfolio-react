@@ -1,0 +1,16 @@
+.main-holder-about {
+  background-color: #444444;
+  height: 100vh;
+
+  .border-img {
+    border-radius: 50%;
+    // margin: 10px;
+    width: 250px;
+    height: 280px;
+  }
+  .about-text {
+    padding-top: 40px;
+    padding-left: 20px;
+    color: white;
+  }
+}

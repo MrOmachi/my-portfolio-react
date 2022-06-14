@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-bg {
+  background-color: #444444;
+}
+
+.nav-bg .logo {
+  width: 40px;
+}
+
+main {
+  background-color: #444444;
+}
+
+main .works-h1 {
+  color: #eece1a;
+}
+
+main .card-col {
+  border: none;
+}
+
+.contact-main .collaborate-txt {
+  color: white;
+}
+
+.contact-main .btn-color {
+  background-color: #eece1a;
+}
+
+.contact-main .contact-main-hold {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.contact-main .empty-hold {
+  visibility: hidden;
+}
+
+.main-holder-about {
+  background-color: #444444;
+  height: 100vh;
+}
+
+.main-holder-about .border-img {
+  border-radius: 50%;
+  width: 250px;
+  height: 280px;
+}
+
+.main-holder-about .about-text {
+  padding-top: 40px;
+  padding-left: 20px;
+  color: white;
+}
+
+.bannerS {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(../img/technology-3389904_960_720.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/technology-3389904_960_720.jpg);
+  background-size: cover;
+  border: solid 1px;
+  padding-top: 150px;
+}
+
+.bannerS h1 {
+  color: #eece1a;
+  text-align: center;
+}
+
+.card-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card-flex .card-empty {
+  visibility: hidden;
+}
+
+.card-flex .card-bg {
+  background-color: #444444;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,20 @@
+.contact-main {
+  .collaborate-txt {
+    color: white;
+  }
+  .btn-color {
+    background-color: #eece1a;
+  }
+
+  .contact-main-hold {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  // .hold-col {
+  //   width: 90%;
+  // }
+  .empty-hold {
+    visibility: hidden;
+  }
+}
